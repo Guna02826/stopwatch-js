@@ -66,3 +66,41 @@ body {
 #resetBtn:hover {
   background-color: hsl(205, 90%, 50%);
 }
+
+@media (max-width: 768px) {
+  #myH1 {
+    font-size: 3rem;
+  }
+
+  #display {
+    font-size: 4rem;
+  }
+
+  #controls button {
+    font-size: 1.25rem;
+    padding: 8px 16px;
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  #myH1 {
+    font-size: 2.5rem;
+  }
+
+  #container {
+    padding: 20px;
+  }
+
+  #display {
+    font-size: 3rem;
+  }
+
+  #controls button {
+    font-size: 1rem;
+    padding: 6px 12px;
+    min-width: 80px;
+  }
+}
+
+
